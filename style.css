@@ -1,0 +1,107 @@
+#main-container {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+img {
+    display: block;
+    width:365px;
+    height: 200px;
+}
+
+h1, p, #ing-con, #inst-con {
+    margin-left: 20px;
+}
+
+#nut-con h1 {
+    padding-left: 20px;
+}
+
+#pre-con {
+    padding: 5px;
+    background-color: #fff5fa;
+    border-radius: 8px;
+    width: 315px;
+    height: auto;
+    margin-left: 20px;
+}
+
+ul {
+    line-height: 2.0;
+}
+
+#pre-con h1, #ing-con h1, #inst-con h1, #nut-con h1 {
+    color: #7b284f;
+}
+
+#inst-con ol li::marker, #ing-con ul li::marker, #nut-con table .color {
+    color: #7b284f;
+    font-weight: bold;
+    font-size: 120%;
+    
+}
+
+.list-item {
+    margin-bottom: 7px;
+    padding-left: 15px;
+}
+
+#nut-con {
+    display: inline;
+}
+
+#add-border {
+    border-bottom: 1px solid black
+}
+
+#cont-padding {
+    padding-left: 30px;
+    padding-bottom: 15px;
+
+}
+
+#val-padding {
+    padding-left: 75px;
+    padding-bottom: 15px;
+}
+
+
+
+@media (min-width: 375px) {
+    #main-container {
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    #egg-con h1 {
+        br {
+            display: none;
+        }
+    }
+
+    #egg-con h1, p, #pre-con, #ing-con, #inst-con, #nut-con h1, p{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #img-con img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #egg-con h1 {
+        position: relative;
+    }
+
+    #pre-con {
+        width: 93%;
+    }
+
+    #val-padding {
+        padding-left: 200px;
+    }
+}
